@@ -34,7 +34,7 @@ jobs:
 
     uses: ./.github/workflows/build-firmware.yml
     with:
-      qmk_version: '0.22.14'
+      qmk_version: 'master'
       keyboard:    ${{ matrix.keyboard }}
       keymap:      ${{ matrix.keymap }}
 
